@@ -9,14 +9,16 @@
 
 /* Class Selector */
 
-.highlight {
+.highlight
+{
     background-color: lightyellow;
     padding: 10px;
 }
 
 /* ID Selector */
 
-#welcome {
+#welcome
+{
     background-color: #d4edda;
     padding: 10px;
 }
