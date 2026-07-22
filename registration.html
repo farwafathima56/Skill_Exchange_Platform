@@ -2,82 +2,109 @@
 <html>
 
 <head>
-    <title>Skill Exchange Platform - Member Registration</title>
+    <title>Skill Exchange Platform - Registration</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+
+        /* Grouping Selector */
+        h1, h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        /* ID Selector */
+        #welcome {
+            color: darkgreen;
+            font-size: 22px;
+        }
+
+        /* Class Selector */
+        .highlight {
+            color: maroon;
+            font-weight: bold;
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-    <h1 align="center">Skill Exchange Platform</h1>
+    <!-- Marquee -->
+    <marquee bgcolor="lightblue" behavior="scroll" direction="left">
+        Welcome to Skill Exchange Platform - Learn Something New, Share What You Know!
+    </marquee>
 
-    <hr>
+    <h1>Skill Exchange Platform</h1>
 
-    <h2>Member Registration</h2>
+    <h2>About Us</h2>
 
-    <p>
-        Welcome! Become a part of the Skill Exchange Platform by filling in the registration form below.
-        Join our learning community, connect with skilled individuals, and start sharing your knowledge.
+    <p id="welcome">
+        Skill Exchange Platform is a community where people can learn and teach different skills by connecting with one another.
     </p>
 
-    <hr>
+    <h2>What We Offer</h2>
 
-    <h2>Popular Learning Categories</h2>
-
-    <ol>
-        <li>Programming</li>
-        <li>Graphic Designing</li>
-        <li>Photography</li>
-        <li>Public Speaking</li>
-        <li>Music</li>
-    </ol>
-
-    <h2>Benefits of Joining Our Platform</h2>
+    <p class="highlight">
+        Our platform provides several useful features to make learning simple and interactive.
+    </p>
 
     <ul>
-        <li>Learn new skills from experienced mentors.</li>
-        <li>Share your knowledge with others.</li>
-        <li>Connect with like-minded learners.</li>
-        <li>Build your personal learning profile.</li>
-        <li>Track your learning progress.</li>
+        <li>Create and Manage Skill Profiles</li>
+        <li>Search for Skills</li>
+        <li>Connect with Skilled People</li>
+        <li>Chat and Collaborate</li>
+        <li>Track Learning Progress</li>
     </ul>
 
-    <hr>
+    <ol>
+        <li>Create an Account</li>
+        <li>Complete Your Profile</li>
+        <li>Search Skills</li>
+        <li>Connect with Learners</li>
+        <li>Start Learning</li>
+    </ol>
 
     <h2>Registration Form</h2>
 
     <form>
 
-        <label>First Name:</label><br>
-        <input type="text" name="fname"><br><br>
+        First Name:<br>
+        <input type="text"><br><br>
 
-        <label>Last Name:</label><br>
-        <input type="text" name="lname"><br><br>
+        Last Name:<br>
+        <input type="text"><br><br>
 
-        <label>Email:</label><br>
-        <input type="email" name="email"><br><br>
+        Email:<br>
+        <input type="email"><br><br>
 
-        <label>Phone Number:</label><br>
-        <input type="tel" name="phone"><br><br>
+        Password:<br>
+        <input type="password"><br><br>
 
-        <label><b>Gender:</b></label><br>
+        Gender:<br>
 
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
-        <input type="radio" name="gender" value="Other"> Other
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
 
         <br><br>
 
-        <label><b>Skills You Want to Learn:</b></label><br>
+        Skills Interested In:<br>
 
-        <input type="checkbox" name="skill"> Programming<br>
-        <input type="checkbox" name="skill"> Graphic Designing<br>
-        <input type="checkbox" name="skill"> Photography<br>
-        <input type="checkbox" name="skill"> Public Speaking<br>
-        <input type="checkbox" name="skill"> Music<br><br>
+        <input type="checkbox"> Web Development<br>
+        <input type="checkbox"> Graphic Designing<br>
+        <input type="checkbox"> Photography<br>
+        <input type="checkbox"> Programming
 
-        <label><b>Experience Level:</b></label><br>
+        <br><br>
 
-        <select name="level">
-            <option>Select</option>
+        Preferred Skill Level:<br>
+
+        <select>
             <option>Beginner</option>
             <option>Intermediate</option>
             <option>Advanced</option>
@@ -86,36 +113,68 @@
         <br><br>
 
         <input type="submit" value="Submit">
+
         <input type="reset" value="Reset">
 
     </form>
 
-    <hr>
+    <br>
 
-    <h2>Website Preview</h2>
+    <h2>Our Learning Community</h2>
 
-    <p>
-        Visit our home page to learn more about the Skill Exchange Platform.
-    </p>
+    <img src="learning.jpg"
+        width="500"
+        height="300"
+        style="border:4px solid darkblue;">
 
-    <iframe src="index.html"
-            width="700"
-            height="400">
+    <br><br>
+
+    <h2>Visit Our Website</h2>
+
+    <a href="index.html">Home Page</a>
+
+    <br><br>
+
+    <h2>Watch Learning Videos</h2>
+
+    <iframe
+        width="500"
+        height="300"
+        src="https://www.youtube.com/embed/qz0aGYrrlhU">
     </iframe>
 
     <br><br>
 
-    <a href="index.html">← Back to Home Page</a>
+    <h2>Contact Information</h2>
+
+    <p>
+
+        <b>Email:</b> support@skillexchange.com
+
+        <br>
+
+        <b>Phone:</b> +91 6366131666
+
+        <br>
+
+        <b>Address:</b> Bangalore, Karnataka, India
+
+    </p>
 
     <hr>
 
     <p align="center">
-         <b>Thank you for choosing Skill Exchange Platform!</b>
+
+        <b>"Learning is better when knowledge is shared."</b>
+
     </p>
-    
-<p align="center">
-    <a href="styles.html">Next → CSS Demonstration</a>
-</p>
-      
+
+    <p align="center">
+
+        <a href="index.html">← Back to Home</a>
+
+    </p>
+
 </body>
+
 </html>
