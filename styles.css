@@ -1,0 +1,22 @@
+/* External CSS File */
+
+/* Universal Selector */
+
+* {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Class Selector */
+
+.highlight {
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+/* ID Selector */
+
+#welcome {
+    background-color: #d4edda;
+    padding: 10px;
+}
