@@ -109,3 +109,93 @@ hr {
 p {
     margin: 10px 0;
 }
+/* ===========================
+   CSS Colors
+=========================== */
+
+/* RGB Color */
+body{
+    background-color: rgb(240,248,255);
+}
+
+/* HEX Color */
+h1{
+    color: #003366;
+}
+
+/* HSL Color */
+h2{
+    color: hsl(200,70%,40%);
+}
+
+/* ===========================
+   Borders (5 Types)
+=========================== */
+
+/* Solid Border */
+img{
+    border:4px solid blue;
+}
+
+/* Dashed Border */
+form{
+    border:3px dashed green;
+}
+
+/* Dotted Border */
+ul{
+    border:3px dotted orange;
+}
+
+/* Double Border */
+ol{
+    border:4px double purple;
+}
+
+/* Groove Border */
+iframe{
+    border:5px groove red;
+}
+
+/* ===========================
+   Padding
+=========================== */
+
+form{
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+}
+
+/* ===========================
+   Website Layout
+=========================== */
+
+header{
+    background-color:lightblue;
+    text-align:center;
+    padding:15px;
+}
+
+nav{
+    background-color:#003366;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+
+section{
+    padding:20px;
+}
+
+footer{
+    background-color:lightgray;
+    text-align:center;
+    padding:15px;
+}
