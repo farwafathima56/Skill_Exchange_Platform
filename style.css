@@ -225,10 +225,15 @@ ul {
     padding: 15px;
 }
 
+
 ol {
-    border: 4px double purple;              /* Double border */
-    padding: 15px;
+    border: 4px double purple;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
+
 
 li {
     margin-bottom: 7px;
