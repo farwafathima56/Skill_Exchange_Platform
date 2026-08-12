@@ -225,21 +225,16 @@ ul {
     padding: 15px;
 }
 
-
-ol {
+ol{
     border: 4px double purple;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 20px;
+    list-style-position: inside;
 }
-
 
 li {
     margin-bottom: 7px;
 }
-
-/* Skills */
+ Skills */
 .skill-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
