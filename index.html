@@ -1,88 +1,449 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Skill Exchange Platform</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Marquee -->
-    <marquee bgcolor="lightblue" behavior="scroll" direction="left">
-        Welcome to Skill Exchange Platform - Learn Something New, Share What You Know!
-    </marquee>
+    <!-- Header -->
+    <header>
 
-    <!-- Heading -->
-    <h1 align="center">Skill Exchange Platform</h1>
+        <marquee behavior="scroll" direction="left">
+            Welcome to Skill Exchange Platform - Learn Something New, Share What You Know!
+        </marquee>
 
-    <h2>About Us</h2>
+        <h1>Skill Exchange Platform</h1>
 
-    <!-- Paragraph -->
-    <p>
-        Skill Exchange Platform is a community where people can learn and teach different
-        skills by connecting with one another. Whether someone wants to improve their
-        coding skills, learn graphic designing, practice a new language, or even explore
-        photography, our platform helps them find the right people. We believe that
-        everyone has something valuable to share, and learning becomes more enjoyable
-        when knowledge is exchanged between individuals.
-    </p>
+        <p class="tagline">Learn. Share. Connect. Grow.</p>
 
-    <h2>What We Offer</h2>
+    </header>
 
-    <p>
-        Our platform provides several useful features to make learning simple and
-        interactive. Users can create their own profiles, list the skills they can
-        teach, search for people with the skills they want to learn, communicate
-        through the platform, and track their learning journey. We aim to build a
-        friendly learning community where everyone can grow together.
-    </p>
 
-    <ul>
-        <li>Create and Manage Skill Profiles</li>
-        <li>Search for Skills</li>
-        <li>Connect with Skilled People</li>
-        <li>Chat and Collaborate</li>
-        <li>Track Learning Progress</li>
-    </ul>
+    <!-- Navigation Bar -->
+    <nav>
 
-    <h2>Visit Our Website</h2>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#modules">Modules</a>
+        <a href="#skills">Skills</a>
+        <a href="#how">How It Works</a>
+        <a href="registration.html">Join Now</a>
+        <a href="#contact">Contact</a>
 
-    <!-- Link -->
-    <a href="#" target="_blank">Visit Our Website</a>
+    </nav>
 
-    <br><br>
 
-    <h2>Our Learning Community</h2>
+    <!-- Hero Section -->
+    <section class="hero">
 
-    <!-- Image -->
-    <img src="learning.jpg"
-         alt="Students Learning Together"
-         width="500"
-         height="300">
+        <div class="hero-text">
 
-    <br><br>
+            <h2>Learn a Skill. Share a Skill. Grow Together.</h2>
 
-    <h2>Contact Information</h2>
+            <p>
+                Skill Exchange Platform is a friendly online community where
+                people can teach what they know and learn something new from others.
+            </p>
 
-    <p>
-        <b>Email:</b> support@skillexchange.com <br>
-        <b>Phone:</b> +91 6366131666 <br>
-        <b>Address:</b> Bangalore, Karnataka, India
-    </p>
+            <a class="button" href="registration.html">
+                Join Our Community
+            </a>
 
-    <hr>
+        </div>
 
-    <p align="center">
-        <b>"Learning is better when knowledge is shared."</b>
-    </p>
-    <br>
+        <img class="hero-image"
+             src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+             alt="Students learning together">
 
-<p align="center">
-    <a href="registration.html">Click Here to Register</a>
-</p>
+    </section>
 
-</body>
-</html>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+
+        <h2>About Our Platform</h2>
+
+        <p id="welcome">
+            Skill Exchange Platform helps learners and skilled individuals
+            connect with one another. Instead of learning alone, users can
+            exchange knowledge, practise skills, collaborate on activities
+            and learn at their own pace.
+        </p>
+
+        <p>
+            Whether you want to improve coding, learn graphic design,
+            practise a language, explore photography or develop communication
+            skills, our platform helps you find people with similar learning goals.
+        </p>
+
+    </section>
+
+
+    <!-- 8 Modules -->
+    <section id="modules" class="content-section">
+
+        <h2>Our 8 Modules</h2>
+
+        <p class="section-intro">
+            Our platform is organised into eight important modules that make
+            skill sharing and learning simple and interactive.
+        </p>
+
+
+        <div class="module-grid">
+
+            <div class="module-card">
+
+                <span class="module-number">01</span>
+
+                <h3>User Registration & Login</h3>
+
+                <p>
+                    Create an account and securely access your personal profile.
+                </p>
+
+            </div>
+
+
+            <div class="module-card">
+
+                <span class="module-number">02</span>
+
+                <h3>Skill Profiles</h3>
+
+                <p>
+                    Add the skills you can teach and the skills you want to learn.
+                </p>
+
+            </div>
+
+
+            <div class="module-card">
+
+                <span class="module-number">03</span>
+
+                <h3>Skill Search</h3>
+
+                <p>
+                    Search for people and skills based on your learning interests.
+                </p>
+
+            </div>
+
+
+            <div class="module-card">
+
+                <span class="module-number">04</span>
+
+                <h3>Skill Matching</h3>
+
+                <p>
+                    Find suitable learning partners with compatible skills.
+                </p>
+
+            </div>
+
+
+            <div class="module-card">
+
+                <span class="module-number">05</span>
+
+                <h3>Communication</h3>
+
+                <p>
+                    Connect with other learners and discuss your learning goals.
+                </p>
+
+            </div>
+
+
+            <div class="module-card">
+
+                <span class="module-number">06</span>
+
+                <h3>Session Scheduling</h3>
+
+                <p>
+                    Plan learning sessions and organise your time effectively.
+                </p>
+
+            </div>
+
+
+            <div class="module-card">
+
+                <span class="module-number">07</span>
+
+                <h3>Ratings & Reviews</h3>
+
+                <p>
+                    Share feedback and recognise helpful members of the community.
+                </p>
+
+            </div>
+
+
+            <div class="module-card">
+
+                <span class="module-number">08</span>
+
+                <h3>Learning Progress</h3>
+
+                <p>
+                    Keep track of your learning journey and achievements.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- What We Offer -->
+    <section class="content-section two-column">
+
+        <div>
+
+            <h2>What We Offer</h2>
+
+            <p class="highlight">
+                Our goal is to make learning more social, practical and enjoyable.
+            </p>
+
+            <ul>
+
+                <li>Create and manage skill profiles</li>
+
+                <li>Search for useful skills</li>
+
+                <li>Connect with skilled people</li>
+
+                <li>Chat and collaborate</li>
+
+                <li>Schedule learning sessions</li>
+
+                <li>Track learning progress</li>
+
+            </ul>
+
+        </div>
+
+
+        <div>
+
+            <h2>Popular Skills</h2>
+
+            <ol>
+
+                <li>Programming & Coding</li>
+
+                <li>Web Development</li>
+
+                <li>Graphic Designing</li>
+
+                <li>Photography</li>
+
+                <li>Languages</li>
+
+                <li>Communication</li>
+
+            </ol>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="content-section">
+
+        <h2>Explore Skills</h2>
+
+        <div class="skill-grid">
+
+            <div class="skill-box">💻 Programming</div>
+
+            <div class="skill-box">🌐 Web Development</div>
+
+            <div class="skill-box">🎨 Graphic Design</div>
+
+            <div class="skill-box">📷 Photography</div>
+
+            <div class="skill-box">🗣️ Languages</div>
+
+            <div class="skill-box">🎵 Music</div>
+
+            <div class="skill-box">📚 Academics</div>
+
+            <div class="skill-box">🤝 Communication</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- How It Works -->
+    <section id="how" class="content-section">
+
+        <h2>How It Works</h2>
+
+        <div class="steps">
+
+            <div class="step">
+
+                <h3>1. Create</h3>
+
+                <p>
+                    Create your profile and add your skills.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <h3>2. Discover</h3>
+
+                <p>
+                    Find people who can teach what you want to learn.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <h3>3. Connect</h3>
+
+                <p>
+                    Connect with your learning partner and plan a session.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <h3>4. Grow</h3>
+
+                <p>
+                    Learn, share knowledge and track your progress.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Image Gallery -->
+    <section class="content-section">
+
+        <h2>Our Learning Community</h2>
+
+        <div class="image-gallery">
+
+            <img src="learning.jpg"
+                 alt="Students learning together"
+                 width="350"
+                 height="230">
+
+
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80"
+                 alt="Student using a laptop"
+                 width="350"
+                 height="230">
+
+
+            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=700&q=80"
+                 alt="People collaborating"
+                 width="350"
+                 height="230">
+
+        </div>
+
+    </section>
+
+
+    <!-- Video Section -->
+    <section class="content-section video-section">
+
+        <h2>Learn Something New</h2>
+
+        <p>
+            Watch this short educational video and get inspired to keep learning.
+        </p>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qz0aGYrrlhU"
+            title="Learning video"
+            allowfullscreen>
+        </iframe>
+
+    </section>
+
+
+    <!-- Join Section -->
+    <section class="join-section">
+
+        <h2>Ready to Start Learning?</h2>
+
+        <p>
+            Join our community and discover people who are ready to
+            learn and share knowledge with you.
+        </p>
+
+        <a class="button" href="registration.html">
+            Click Here to Register
+        </a>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section contact-section">
+
+        <h2>Contact Information</h2>
+
+        <p>
+
+            <b>Email:</b> support@skillexchange.com
+
+            <br>
+
+            <b>Phone:</b> +91 6366131666
+
+            <br>
+
+            <b>Address:</b> Bangalore, Karnataka, India
+
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            <b>"Learning is better when knowledge is shared."</b>
+        </p>
+
+        <p>
+            &copy; 2026 Skill Exchange Platform | Designed for WAD Project
+        </p>
+
+    </footer>
 
 </body>
 
