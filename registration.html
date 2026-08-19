@@ -7,7 +7,10 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Internal CSS -->
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+     <!-- Internal CSS -->
     <style>
 
         /* Grouping Selector */
@@ -82,40 +85,44 @@ Welcome to Skill Exchange Platform - Learn Something New, Share What You Know!
 
     <h2>Registration Form</h2>
 
-    <form>
+    <form id="registrationForm" onsubmit="return validateForm()"></form>
 
         First Name:<br>
-        <input type="text"><br><br>
+        <input type="text" id="firstName">><br><br>
 
         Last Name:<br>
-        <input type="text"><br><br>
+        <input type="text" id="lastName"><br><br>
 
         Email:<br>
-        <input type="email"><br><br>
+        <input type="email" id="email"><br><br>
 
         Password:<br>
-        <input type="password"><br><br>
+        <input type="password" id="password"><br><br>
+
+        Mobile Number:<br>
+        <input type="text" id="mobile" placeholder="Enter 10-digit mobile number">
+        <br><br>
 
         Gender:<br>
 
-        <input type="radio" name="gender"> Male
-        <input type="radio" name="gender"> Female
-        <input type="radio" name="gender"> Other
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
 
         <br><br>
 
         Skills Interested In:<br>
 
-        <input type="checkbox"> Web Development<br>
-        <input type="checkbox"> Graphic Designing<br>
-        <input type="checkbox"> Photography<br>
-        <input type="checkbox"> Programming
+        <input type="checkbox" name="skill" value="Web Development"> Web Development<br>
+        <input type="checkbox" name="skill" value="Graphic Designing"> Graphic Designing<br>
+        <input type="checkbox" name="skill" value="Photography"> Photography<br>
+        <input type="checkbox" name="skill" value="Programming"> Programming
 
         <br><br>
 
         Preferred Skill Level:<br>
 
-        <select>
+        <select id="level">
             <option>Beginner</option>
             <option>Intermediate</option>
             <option>Advanced</option>
